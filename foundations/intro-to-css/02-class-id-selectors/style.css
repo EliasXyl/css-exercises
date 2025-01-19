@@ -8,3 +8,12 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+.class-selector {
+    background-color: hsl(351, 100%, 85%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.multiple-classes {
+    font-size: 24px;
+}
