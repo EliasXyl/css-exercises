@@ -15,7 +15,27 @@ body {
   justify-content: center;
 }
 
+
+.header {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon{
+  flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
 .modal {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
   background: white;
   width: 480px;
   border-radius: 10px;
