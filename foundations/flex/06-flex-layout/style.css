@@ -1,6 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Uncomment the line below for better visualization */
+/*   * { outline: 1px solid black; }   */
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: #636363;
+  text-decoration: none;
+}
+
+.left-links,
+.right-links{
+  gap: 13px;
+  display: flex;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.footer {
+background-color: #eeeeee;
+}
+
+.header,
+.footer {
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.input {
+  margin-top: 20px;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   overflow: hidden;
